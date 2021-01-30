@@ -37,6 +37,6 @@ ubuntu@ip:~$ ./bootstrap-vcpkg.sh
 
 If the file name is `HelloWorld.c` the the command is :-
 
-```c
+```console
 ubuntu@ip:~$ cc HelloWorld.c && ./a.out
 ```
