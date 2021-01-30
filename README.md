@@ -18,3 +18,25 @@ The C Programming Language by Kernighan and Ritchie is awesome book to start C p
 | Appendix B.  | Standard Library                                        | [Link](/Appendix-B/)  |
 | Appendix C.  | Symmary of Change                                       | [Link](/Appendix-C/)  |
 
+## Installing the required tools
+[Install vcpkg on Windows, Linux, and macOS](https://docs.microsoft.com/en-us/cpp/build/install-vcpkg?view=msvc-160&tabs=linux) has a very descriptive for evely flavour of operaing system. But for linux follow the command
+
+```console
+ubuntu@ip:~$ sudo apt-get update
+
+ubuntu@ip:~$ sudo apt-get install build-essential tar curl zip unzip
+
+ubuntu@ip:~$ git clone https://github.com/microsoft/vcpkg
+
+ubuntu@ip:~$ cd vcpkg
+
+ubuntu@ip:~$ ./bootstrap-vcpkg.sh
+```
+
+## Running a C file using command line
+
+If the file name is `HelloWorld.c` the the command is :-
+
+```c
+ubuntu@ip:~$ cc HelloWorld.c && ./a.out
+```
