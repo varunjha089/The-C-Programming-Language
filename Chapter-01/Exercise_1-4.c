@@ -12,11 +12,11 @@ int main(){
     upper = 300;    /* Upper limit*/
     step = 20;      /* Step size*/
 
-    printf("Fahr\tCelsius\n");      /* Title Added as according to Exercise*/
+    printf("Celsius\tFahr\n");      /* Title Added as according to Exercise*/
     fahr = lower;
     while(fahr <= upper){
-        celsius = ( 5.0 / 9.0 ) * ( fahr - 32.0 );
-        printf("%3.0f\t%6.1f\n", fahr, celsius);
-        fahr = fahr + step;
+        fahr = ( 9.0 * celsius ) / 5.0 + 32.0;
+        printf("%3.0f\t%6.1f\n", celsius, fahr);
+        celsius = celsius + step;
     }
 }
