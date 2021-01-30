@@ -41,7 +41,7 @@ If the file name is `HelloWorld.c` the the command is :-
 ubuntu@ip:~$ cc HelloWorld.c && ./a.out
 ```
 
-## Commenting a C Programme
+## Commenting in C Programme
 
 ```c
 #include <stdio.h>
@@ -51,12 +51,27 @@ int main(){
 }
 ```
 
-## Error Recieved
+## C Data Types
+
+| Data Type  | Description  |  
+|---   |---   |
+| int | int means the variable are listed as Integer|
+| float | fload means the variable are listed as Floating Point value |
+| char | char means the variable are listed as character -- a single byte |
+| short | short means the variable are listed as short integer |
+| long | long means the variable are listed as long integer |
+| double | double means the variable are listed as double-precision floating point |
+
+
+The size of these objects are machine dependent, but in general `16-bit ints` lies between `-32768` and `+32767`. A `float` number is typically a `32-bit` quantity, with at least six signigicant digits and magintude between 10^-38 and  10^38. 
+
+
+## Error Received While Playing in C Programme
 
 | Error  | Cause of Error  |  
 |---   |---   |
-| error: expected ‘;’ before ‘}’ token| Semi-Colon is missing somewhere in programme.|
-| error: expected ‘)’ before ‘;’ token| Parentheses is missing. It can happen when opening parentheses is missing also.|
+| error: expected ‘;’ before ‘}’ token | Semi-Colon is missing somewhere in programme.|
+| error: expected ‘)’ before ‘;’ token | Parentheses is missing. It can happen when opening parentheses is missing also.|
 | | |
 | | |
 | | |
