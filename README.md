@@ -65,6 +65,17 @@ int main(){
 
 The size of these objects are machine dependent, but in general `16-bit ints` lies between `-32768` and `+32767`. A `float` number is typically a `32-bit` quantity, with at least six signigicant digits and magintude between 10^-38 and  10^38. 
 
+## Precision in C Programme
+
+| Precision | Description |
+|--- |--- |
+| %d | print as decimal integer |
+| %6d | print as decimal integer, at least 6 character wide |
+| %f | print as floating point|
+| %6f | print as floating point, at least 6 character wide |
+| %.2 | print as floating point, 2 character after decimal point |
+| %6.2 | print as floating point, at least 6 wide and 2 after decimal point|
+
 
 ## Error Received While Playing in C Programme
 
