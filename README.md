@@ -4,7 +4,7 @@ The C Programming Language by Kernighan and Ritchie is awesome book to start C p
 
 ## Table of Content
 
-    1. A tutorial Introduction
+    1. [A tutorial Introduction](./Chapter-01)
     2. Types, Operators and Expression
     3. Control Flow
     4. Function and Program Structure
