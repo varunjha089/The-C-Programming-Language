@@ -76,6 +76,25 @@ The size of these objects are machine dependent, but in general `16-bit ints` li
 | %.2 | print as floating point, 2 character after decimal point |
 | %6.2 | print as floating point, at least 6 wide and 2 after decimal point|
 
+## Symbolic Constant
+
+Syntax :- 
+
+```c
+#define name replacement text
+```
+Example :-
+
+```c
+#include <stdio.h>
+
+#define LOWER 5
+
+int main(){
+    printf("%d\n", LOWER);
+}
+```
+
 
 ## Error Received While Playing in C Programme
 
