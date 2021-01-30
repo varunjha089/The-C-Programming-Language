@@ -40,3 +40,23 @@ If the file name is `HelloWorld.c` the the command is :-
 ```console
 ubuntu@ip:~$ cc HelloWorld.c && ./a.out
 ```
+
+## Commenting a C Programme
+
+```c
+#include <stdio.h>
+/* Some comments*/
+int main(){
+    printf("");
+}
+```
+
+## Error Recieved
+
+| Error  | Cause of Error  |  
+|---   |---   |
+| error: expected ‘;’ before ‘}’ token| Semi-Colon is missing somewhere in programme.|
+| error: expected ‘)’ before ‘;’ token| Parentheses is missing. It can happen when opening parentheses is missing also.|
+| | |
+| | |
+| | |
