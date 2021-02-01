@@ -66,5 +66,7 @@ C = ( getchar() != EOF )
 
 - This has the undesired effect of setting `c` to `0` or `1`, depending on whether or not the call of getchar encountered end of file.
 
-**The above Example is for the [file](/06.c) `06.c`.**
+**The above Example is for the [file](/Chapter-01/06.c) `06.c`.**
+
+#### The value of EOF is `-1` C code file to check it is [here](/Chapter-01/Exercise_1-7.c).
 
