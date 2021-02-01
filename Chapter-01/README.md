@@ -70,3 +70,16 @@ C = ( getchar() != EOF )
 
 #### **->** The value of EOF is `-1` C code file to check it is [here](/Chapter-01/Exercise_1-7.c).
 
+#### **->** The grammatical rules of C require that a `for` statement have a body. The isolated semi-colon, called a *null statement*, can be used for this purpose.
+
+```c
+#include <stdio.h>
+
+int main(){
+    int a;
+    for ( a = 0; a < 10; a++ )
+        ;                           /* isolated semi-colon */
+    printf("%d", a);
+}
+```
+
