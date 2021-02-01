@@ -36,7 +36,7 @@
 | Exercise_1-23.c | |
 | Exercise_1-24.c | |
 
-### Notes from Page-17
+### **->** Notes from Page-17
 
 ```c
 #include <stdio.h>
@@ -68,5 +68,5 @@ C = ( getchar() != EOF )
 
 **The above Example is for the [file](/Chapter-01/06.c) `06.c`.**
 
-#### The value of EOF is `-1` C code file to check it is [here](/Chapter-01/Exercise_1-7.c).
+#### **->** The value of EOF is `-1` C code file to check it is [here](/Chapter-01/Exercise_1-7.c).
 
